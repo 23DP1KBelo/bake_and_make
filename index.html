@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="src/css/main.css" rel="stylesheet">
+    <title>Bake and make</title>
+</head>
+<body>
+    <nav class="nav">
+        <img class="nav-ele logo" id="logo"src="src/img/logo-light.png" alt="logo" width="100px" height="75px">
+        <a class="nav-ele" href="#home">Home</a>
+        <a class="nav-ele" href="#aboutUs">About us</a>
+        <a class="nav-ele" href="#recipe">Recipes</a>
+        <a class="nav-ele" href="#Subscription">Subscription</a>
+    </nav>
+    <main>
+        <section id="home" class="hero-section">
+            <div class="hero-text">
+                <h1 class="heading-hero">Bake with us!</h1>
+                <p class="p-hero">Join our subscription today and get unlimited access to exclusive recipes, tips, and more—right at your fingertips.<br> Start baking your next masterpiece with us!</p>
+                <br>
+                <div class="btn-cont">
+                <button class="button"><a class="a-button" href="#Subscription">Subscription</a></button>
+                </div>
+            </div>
+         </section>
+         <section id="aboutUs" class="section">
+            <h1 class="heading">About Us</h1>
+            <div class="aboutUs-text">
+            <p class="text">We believe that every bite should be a moment of joy. Our passion for baking is reflected in every loaf, pastry, and treat we create, using only the finest ingredients and time-honored techniques. From warm, freshly baked bread to indulgent cakes and delicate pastries, each item is made with love and care to bring a little sweetness into your day. Whether you're here for a cozy breakfast, an afternoon snack, or a special celebration, we’re dedicated to crafting the perfect baked goods to make every occasion memorable.
+                <br> Come experience the heart of homemade goodness!</p>
+            </div>
+        </section>
+         <section id="recipe" class="section section-bc">
+            <h1 class="heading">Recipes</h1>
+            <h2 class="recipe-text"><strong>THIS WEEKS RECIPES</strong></h2>
+            <div class="recipe-img">
+                <img src="src/img/cake.jpg" alt="cake_recipe" width="200vw" height="200vh">
+                <img src="src/img/maccarons.jpg" alt="maccarons" width="200vw" height="200vh">
+                <img src="src/img/muffin.jpg" alt="chocolate_muffins" width="200vw" height="200vh">
+            </div>
+            <div class="recipe-text-cont">
+                <a class="recipe-text text" href="https://sallysbakingaddiction.com/triple-chocolate-layer-cake/">Cake recipe - quick and easy to make</a>
+                <a class="recipe-text text" href="https://preppykitchen.com/french-macarons/">Maccaron recipe - fun and easy to make</a>
+                <a class="recipe-text text" href="https://preppykitchen.com/chocolate-muffins/">Chocolate muffins - juice and quick</a>
+            </div>
+         </section>
+         <section id="Subscription" class="section">
+            <h1 class="heading">Subscription</h1>
+            <div class="form-container">
+                <form name="form"> <!--onsubmit=" return validateForm()"-->
+                    <label class="text" for="fname">
+                        <p class="error show">This field is required!</p>
+                        Name*
+                        <input class="form-ele required" type="text" name="fname">
+                    </label>
+                    <br>
+                    <label class="text" for="lname">
+                        <p class="error show">This field is required!</p>
+                        Lastname*
+                        <input class="form-ele required" type="text" name="lname">
+                    </label>
+                    <br>
+                    <label class="text" for="email">
+                        <p class="error show">This field is required!</p>
+                        E-mail*
+                        <input class="form-ele required"type="text" name="email">
+                    </label>
+                    <br>
+                    <label class="text" for="number">
+                        <p class="error show">This field is required!</p>
+                        Number*
+                        <input class="form-ele required"type="text" name="number">
+                    </label>
+                    <br>
+                    <label  class="text"for="bday">
+                        Birthday
+                        <input class="form-ele"type="date" name="bday">
+                    </label>
+                    <br>
+                    <input class="button color" type="Submit" value="Submit">
+                </form>
+            </div>
+         </section>
+    </main>
+    <footer>
+        <div class="cat-container">
+            <p id="catfact" class="cat-text"></p>
+            <p class="cat-text">Random cat fact</p>
+            &copy Bake and Make 2025
+        </div>
+    </footer>
+    <script src="src/js/main.js"></script>
+</body>
+</html>

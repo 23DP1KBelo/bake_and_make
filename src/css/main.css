@@ -1,0 +1,163 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #eadcb5;
+}
+.nav-ele{
+    display: flex;
+    text-decoration: none;
+    padding-left: 100px;
+    font-family: Inter;
+    font-size: 1.5vw;
+    color: #eadcb5;
+}
+.nav-ele:hover{
+    color: #91886d;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:#42322a;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+.logo{
+    padding: 0;
+    margin: 0;
+}
+footer{
+    bottom: 0;
+    padding-bottom: 5px;
+    background-color: #42322a;
+    width: 100%;
+    text-align: center;
+    font-family: Inter;
+    color:  #866555;
+    font-size: 1vw;
+
+}
+.hero-section{
+    background-image:url('https://img.freepik.com/free-photo/tasty-bagels-with-cream-cheese_23-2148516591.jpg?semt=ais_hybrid');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    text-align: right;
+    margin: 0;
+}
+.heading-hero{
+    font-family: Inter;
+    color: #42322a;
+    font-size: 8vw;
+    margin: 0;
+    padding-top: 10vh;
+}
+.p-hero{
+    font-family: Inter;
+    color: #42322a;
+    font-size: 3vh;
+    font-weight: bold;
+    background-color: rgb(152, 114, 95, 0.5) ;
+    border-radius: 2vw;
+    display: inline;
+}
+.button,.a-button{
+    border-radius: 20px;
+    width: 10vw;
+    height: 7vh;
+    background-color: #eadcb5;
+    font-family: Inter;
+    color:#91886d;
+    font-size: 1.5vw;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+.a-button{
+    color:#42322a;
+}
+.color{
+    color: #42322a;
+    background-color: #91886d;
+}
+.btn-cont{
+    padding-top: 4vw;
+}
+.hero-text{
+    padding-right: 2vw;
+    padding-top: 15vh;
+}
+.section{
+    height: 80vh ;
+    text-align: center;
+}
+.section-bc{
+    background-color: #a07763;
+    
+}
+
+.cat-text{
+    font-family: Inter;
+    color: #eadcb5;
+    font-size: 2vh;
+    font-weight: bold;
+}
+#catfact{
+    padding-top: 30px;
+}
+#recipe {
+    padding-top: 70px;
+}
+
+.recipe-img, .recipe-text-cont{
+    display: flex;
+    justify-content: space-evenly;
+}
+.recipe-text, .heading{
+    color:  #000000;
+    font-family: Inter;
+
+}
+.heading{
+    padding-top: 5vh;
+    font-size: 4vw;
+}
+.text{
+    font-size: 1.5vw;
+}
+.aboutUs-text{
+    text-align: center;
+    width: 60vw;
+    height: 40vh;
+}
+
+#aboutUs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    width: 30vw;
+    height: 4vh;
+    border-radius: 20px;
+    background-color:#91886d;
+    border: none;
+    margin: 1vh;
+    padding-left: 1vw ;
+    padding-right: 1vw;
+}
+.error{
+    color:red;
+    padding: 0;
+    margin: 0;
+}
+.show{
+    display: none;
+}
