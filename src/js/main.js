@@ -1,4 +1,5 @@
-fetch('http://89.250.69.87/api/fact').then(async response => {
+
+fetch('https://catfact.ninja/fact').then(async response => {
   if(!response.ok) {
     alert('Failed to fetch data')
     return 0
@@ -6,6 +7,7 @@ fetch('http://89.250.69.87/api/fact').then(async response => {
   const data = await response.json()
   document.getElementById('qoute').innerHTML = data.fact
 })
+//http://89.250.69.87/api/fact
 
 // Navigations
 const navigations = document.querySelectorAll('nav > div.link')
